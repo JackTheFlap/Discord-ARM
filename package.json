@@ -1,0 +1,20 @@
+{
+  "name": "Discord ARM",
+  "version": "0.1.0",
+  "description": "Discord web built as an electron app for ARM Macbooks",
+  "main": "main.js",
+  "scripts": {"start": "electron ."},
+  "repository": "",
+  "keywords": [
+    "Discord",
+    "ARM",
+    "Apple Silicon",
+    "M1"
+  ],
+  "author": "JackTheFlap",
+  "homepage": "https://github.com/JackTheFlap/Discord-ARM",
+  "license": "GPL-3.0-only",
+  "devDependencies": {
+    "electron": "^11.1.1"
+  }
+}
