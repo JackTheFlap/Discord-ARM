@@ -1,6 +1,6 @@
 /// main.js
 /// Modified by JackTheFlap 04/01/2020 17:46
-/// Version v0.1.0
+/// Version v0.2.0
 ///
 
 const {app, shell, Menu, BrowserWindow} = require('electron');
