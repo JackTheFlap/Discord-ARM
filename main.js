@@ -4,7 +4,6 @@
 ///
 
 const {app, shell, Menu, BrowserWindow} = require('electron');
-const { inAppPurchase } = require('electron/main');
 const path = require('path')
 
 function createWindow () {
@@ -36,6 +35,8 @@ function createWindow () {
       { role: 'cut' },
       { role: 'copy' },
       { role: 'paste' },
+      { type: 'separator' },
+      { role: 'selectAll' }
     ]},
     {label: 'View', submenu: [
       { role: 'reload' },
