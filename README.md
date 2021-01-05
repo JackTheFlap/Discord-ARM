@@ -10,7 +10,7 @@ Discord-ARM runs the web version of Discord (https://discord.com/app). This mean
 Pre-built binaries can be found under [Releases](https://github.com/JackTheFlap/Discord-ARM/releases).
 
 ## Build
-To build run ```./build.sh``` .
+To build run ```./build.sh``` if Discord-ARM has not been built before the script will prompt to install electron-packager.
 
 ## Contributing
 If you'd like to contribute please branch off of the development branch and open pull requests against it rather than master. Otherwise just try to stick to the general style of the code.
