@@ -6,7 +6,7 @@ if [ ! -d "$nodeInitDir" ]; then
     echo    # (optional) move to a new line
     if [[ $REPLY =~ ^[Yy]$ ]]
     then
-        npm install electron-packager -g
+        npm install electron-packager --save-dev
     fi
 fi
 
