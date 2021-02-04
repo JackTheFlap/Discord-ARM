@@ -1,17 +1,28 @@
 /// main.js
 /// Modified by JackTheFlap 04/01/2020 17:46
-/// Version v0.2.0
+/// Version v0.1.3
 ///
 
 const {app, shell, Menu, BrowserWindow} = require('electron');
 const path = require('path')
+const contextMenu = require('electron-context-menu')
+
+contextMenu({
+	prepend: (defaultActions, params, browserWindow) => [{
+		label: 'Rainbow',
+    visible: false,
+	}],
+  showSaveImageAs: true,
+  showSaveLinkAs: true
+});
 
 function createWindow () {
   const mainWindow = new BrowserWindow({
     width: 1920,
     height: 1080,
     webPreferences: {
-      preload: path.join(__dirname, 'preload.js')
+      preload: path.join(__dirname, 'preload.js'),
+      spellcheck: true
     }
   })
   // Load Discord Web
@@ -67,6 +78,9 @@ function createWindow () {
 
   const menu = Menu.buildFromTemplate(template)
   Menu.setApplicationMenu(menu);
+
+  const dispose = contextMenu();
+  dispose();
 }
 
 // When Electron has finished initializing one window is created.
