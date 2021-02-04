@@ -19,5 +19,8 @@ If you'd like to contribute please branch off of the development branch and open
 
 [GNU General Public License v3.0](https://github.com/JackTheFlap/Discord-ARM/blob/main/LICENSE)
 
+## Icon Credit
+Icon used: Discord Dark by Kayvon2008 @ https://macosicons.com/
+
 ## Contact
 If you have questions or feedback your best option is to [tweet me](https://twitter.com/JackTheFlap) or to raise an [issue](https://github.com/JackTheFlap/issues). 
