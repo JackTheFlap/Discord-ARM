@@ -15,7 +15,7 @@
   "homepage": "https://github.com/JackTheFlap/Discord-ARM",
   "license": "GPL-3.0-only",
   "devDependencies": {
-    "electron": "^12.0.8",
+    "electron": "^13.0.0",
     "electron-packager": "^15.2.0"
   },
   "dependencies": {
