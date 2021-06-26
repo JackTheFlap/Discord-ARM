@@ -1,6 +1,6 @@
 {
   "name": "Discord ARM",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Discord web built as an electron app for ARM Macbooks",
   "main": "main.js",
   "scripts": {"start": "electron ."},
