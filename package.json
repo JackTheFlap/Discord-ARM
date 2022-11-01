@@ -16,7 +16,7 @@
   "license": "GPL-3.0-only",
   "devDependencies": {
     "electron": "^20.2.0",
-    "electron-packager": "^16.0.0"
+    "electron-packager": "^17.1.0"
   },
   "dependencies": {
     "electron-context-menu": "^3.3.0"
