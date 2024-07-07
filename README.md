@@ -1,6 +1,10 @@
 # Discord-ARM
 Discord-ARM is an Electron wrapper for https://discord.com/app which has been built for Apple Silicon (arm64). 
 
+## Deprecated
+
+Discord-ARM has been deprecated. Discord's official app supports ARM natively and [Vesktop](https://github.com/Vencord/Vesktop) is an excellent alternative with more features.
+
 ## Discord-ARM VS Official macOS Discord
 Discord-ARM was created due to issues with running the official macOS Discord application using Rosetta 2. 
 
